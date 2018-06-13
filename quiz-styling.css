@@ -1,0 +1,149 @@
+/* deposit boxes */
+/* (https://images.unsplash.com/photo-1462045504115-6c1d931f07d1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6cbcd42bb27cc96bcc501a62e5e9f347&auto=format&fit=crop&w=1351&q=80) */
+/* blue dollars */
+/* (https://images.unsplash.com/photo-1500316124030-4cffa46f10f0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c3583c9e0a39944ac510280a55bcc0b&auto=format&fit=crop&w=1350&q=80 )*/
+/*new currency bills*/
+/* https://images.unsplash.com/photo-1515180711443-f8685c6d6a74?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=af2cb334cc0aa6cf0ba21ff3a3064393&auto=format&fit=crop&w=1350&q=80 */
+/*1 dollar bill*/
+/* https://images.unsplash.com/photo-1494888427482-242d32babc0b?ixlib=rb-0.3.5&s=5f5dfbf026bc9b788361b7ee96929398&auto=format&fit=crop&w=1350&q=80 */
+/* coins */
+/* https://images.unsplash.com/photo-1523629619140-ee5b56cb3b23?ixlib=rb-0.3.5&s=6980f128993d056d4eabdc83f7481f0e&auto=format&fit=crop&w=1474&q=80 */
+
+html {
+	font-size: 21px;
+	min-height: 100%;
+}
+body {
+  background: url(https://images.unsplash.com/photo-1500316124030-4cffa46f10f0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c3583c9e0a39944ac510280a55bcc0b&auto=format&fit=crop&w=1350&q=80 ) no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Merriweather', serif;
+} 
+
+.header-left i {
+	color: gold;
+	font-size: 1.2em;
+}
+
+.h1 {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	color: gold;
+}
+
+h1 {
+	font-size: 2.0em;
+	font-weight: bold;
+	padding-bottom: 15px;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+h2 {
+	padding: 20px 25px;
+	line-height: 1.4em;		
+	font-size: 1.364em;
+}
+.header-left {
+	padding: 25px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+li {
+	display: inline-block;
+	padding-left: 25px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+ul {
+	padding: 25px;
+}
+
+#question, .result {
+	line-height: 1.5em;
+}
+
+.start-button, .next, .submit-answer, .restart-button {
+	display: block;
+	border-radius: 25px;
+	width: 150px;
+	height: 50px;
+	font-size: 0.8182em;
+	font-weight: bold;
+	margin: 20px auto 0 auto;
+	background-color: gold;
+	border: none;
+
+}
+
+.quiz-form {
+	padding: 35px;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, 0.80);
+	width: auto;
+	max-width: 800px;
+}
+
+.answer-option input {
+	margin: 11px 10px 0 0;
+}
+
+.answer-option {
+	border-radius: 15px;
+	background: rgba(13, 40, 52, 0.50);
+	margin: 10px 0;
+	padding: 10px;
+}
+
+
+.if-correct {
+	font-size: 1.364em;
+	font-weight: bold;
+}
+
+.incorrect {
+	text-align: center;
+	font-size: 1.364em; 
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.best-answer {
+	font-style: italic;
+}
+
+.feedback {
+	align-content: center;
+	line-height: 1.5em;	
+}
+
+.clip {
+	position: absolute !important; 
+ 	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ 
+ 	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.book {
+	font-style: italic;	
+}
+
+.congrats {
+	font-weight: bold;
+	color: gold;
+	text-align: center;	
+}
+
+.border {
+	margin-bottom: 20px;
+	border-top-style:double;
+	border-bottom-style:double;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-top-color:#89d3e5;
+	border-bottom-color:#89d3e5;
+	border-top-width:8px;
+	border-bottom-width:8px;
+}
